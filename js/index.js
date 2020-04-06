@@ -20,7 +20,7 @@ function init_rev4() {
         } else {
             revapi4 = tpj("#rev_slider_4_3").show().revolution({
                 sliderType: "standard",
-                jsFileLocation: "/revslider/js/",
+                jsFileLocation: "revslider/js/",
                 sliderLayout: "fullwidth",
                 dottedOverlay: "none",
                 delay: 3500,
