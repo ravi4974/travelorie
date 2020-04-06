@@ -1,0 +1,149 @@
+{
+    "header": {
+        "links": {
+            "left": [
+                {
+                    "text": "Blogs",
+                    "href": "/blogs"
+                }
+            ],
+            "right": [
+                {
+                    "text": "About",
+                    "href": "/about-me"
+                }
+            ]
+        },
+        "socials": [
+            {
+                "text": "INSTRAGRAM",
+                "icon": "fab fa-instagram",
+                "href": "https://www.instagram.com/travelorie/"
+            },
+            {
+                "text": "Twitter",
+                "icon": "fab fa-twitter",
+                "href": "https://twitter.com/Travelorie?lang=en"
+            },
+            {
+                "text": "Facebook",
+                "icon": "social_facebook",
+                "href": "https://www.facebook.com/Travelorie"
+            },
+            {
+                "text": "Pinterest",
+                "icon": "social_pinterest",
+                "href": "https://www.pinterest.com/travelorie/"
+            },
+            {
+                "text": "YouTube",
+                "icon": "social_youtube",
+                "href": "https://www.youtube.com/"
+            }
+        ]
+    },
+    "home": {
+        "slides": [
+            {
+                "text": {
+                    "caption": "Around the world",
+                    "caption-suffix": "in 3 months"
+                },
+                "background": "images/banner/around-the-world.jpg"
+            },
+            {
+                "text": {
+                    "caption": "Go Exploring",
+                    "caption-suffix": "Seaside Adventure"
+                },
+                "background": "images/banner/go-exploring.jpg"
+            },
+            {
+                "text": {
+                    "caption": "Endless Beachers",
+                    "caption-suffix": "Crystal Waters"
+                },
+                "background": "images/banner/endless-beaches.jpg"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Beaches",
+                "icon": "images/category/beach-category.png",
+                "count": 4,
+                "href": "#"
+            },
+            {
+                "name": "Dog-Friendly",
+                "icon": "images/category/dog-category.png",
+                "count": 2,
+                "href": "#"
+            },
+            {
+                "name": "Restaurants",
+                "icon": "images/category/restorant-category.png",
+                "count": 3,
+                "href": "#"
+            },
+            {
+                "name": "Overnight",
+                "icon": "images/category/night-category.png",
+                "count": 4,
+                "href": "#"
+            },
+            {
+                "name": "Camping",
+                "icon": "images/category/camping-category.png",
+                "count": 5,
+                "href": "#"
+            },
+            {
+                "name": "Low Budget",
+                "icon": "images/category/low-budget-category.png",
+                "count": 4,
+                "href": "#"
+            }
+        ],
+        "essentials": [
+            {
+                "name": "Coral Bag",
+                "href": "#",
+                "imageUrl": "images/products/coral-bag.png"
+            },
+            {
+                "name": "Sandals",
+                "href": "#",
+                "imageUrl": "images/products/sandals.png"
+            },
+            {
+                "name": "Camera",
+                "href": "#",
+                "imageUrl": "images/products/camera.png"
+            },
+            {
+                "name": "Suitcase",
+                "href": "#",
+                "imageUrl": "images/products/suitcase.png"
+            },
+            {
+                "name": "Sunglasses",
+                "href": "#",
+                "imageUrl": "images/products/sunglasses.png"
+            }
+        ]
+    },
+    "blogs": [
+        {
+            "name": "My First Blog",
+            "href": "/blogs/my-first-blog",
+            "imageUrl": "uploads/2018/08/peru-destination.jpg",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic porro minus, voluptates dolorum dolore excepturi quas nihil obcaecati nemo eius ullam recusandae alias et at dolores unde labore vero pariatur ipsa quisquam assumenda dicta laborum, vitae sint. Reprehenderit labore commodi ut facere blanditiis aliquid veniam esse temporibus iusto, nobis consequuntur.",
+            "tags": [
+                {
+                    "name": "Low Budget",
+                    "href": "#"
+                }
+            ]
+        }
+    ]
+}
