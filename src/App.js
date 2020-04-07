@@ -18,7 +18,7 @@ function App() {
   let [configuration,setConfiguration]=useState(DefaultConfiguration);
 
   useEffect(function(){
-    fetch(`${process.env.PUBLIC_URL}+/js/configuration.json`).then(r=>r.json()).then(c=>{setConfiguration(c);});
+    fetch(`${process.env.PUBLIC_URL}/js/configuration.json`).then(r=>r.json()).then(c=>{setConfiguration(c);});
   },[])
 
   return (
