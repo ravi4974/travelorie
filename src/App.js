@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -18,7 +18,7 @@ function App() {
   let [configuration,setConfiguration]=useState(DefaultConfiguration);
 
   useEffect(function(){
-    fetch('/js/configuration.json').then(r=>r.json()).then(c=>{setConfiguration(c);});
+    fetch(`${process.env.PUBLIC_URL}+/js/configuration.json`).then(r=>r.json()).then(c=>{setConfiguration(c);});
   },[])
 
   return (

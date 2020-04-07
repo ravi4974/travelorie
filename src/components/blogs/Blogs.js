@@ -120,7 +120,7 @@ function Blog(props) {
     let [html, setHtml] = useState(null);
 
     useEffect(function () {
-        fetch(`/blogs-pages/${blogid}.html`).then(response => response.text()).then(d => {
+        fetch(`${process.env.PUBLIC_URL}/blogs-pages/${blogid}.html`).then(response => response.text()).then(d => {
             setHtml(d);
         }).catch(r => {
             setHtml(`<h3>Blog ${blogid} is not yet available`);
