@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/travelorie/static/css/main.818745ed.chunk.css",
-    "main.js": "/travelorie/static/js/main.fd2e7cbc.chunk.js",
-    "main.js.map": "/travelorie/static/js/main.fd2e7cbc.chunk.js.map",
+    "main.js": "/travelorie/static/js/main.1790e92c.chunk.js",
+    "main.js.map": "/travelorie/static/js/main.1790e92c.chunk.js.map",
     "runtime-main.js": "/travelorie/static/js/runtime-main.3969994d.js",
     "runtime-main.js.map": "/travelorie/static/js/runtime-main.3969994d.js.map",
-    "static/js/2.aa89d58d.chunk.js": "/travelorie/static/js/2.aa89d58d.chunk.js",
-    "static/js/2.aa89d58d.chunk.js.map": "/travelorie/static/js/2.aa89d58d.chunk.js.map",
+    "static/js/2.08fc526d.chunk.js": "/travelorie/static/js/2.08fc526d.chunk.js",
+    "static/js/2.08fc526d.chunk.js.map": "/travelorie/static/js/2.08fc526d.chunk.js.map",
     "index.html": "/travelorie/index.html",
-    "precache-manifest.677048b88016698921db5e7a59e18197.js": "/travelorie/precache-manifest.677048b88016698921db5e7a59e18197.js",
+    "precache-manifest.5d7d5fb21140d46d4a1f66b4cd090829.js": "/travelorie/precache-manifest.5d7d5fb21140d46d4a1f66b4cd090829.js",
     "service-worker.js": "/travelorie/service-worker.js",
     "static/css/main.818745ed.chunk.css.map": "/travelorie/static/css/main.818745ed.chunk.css.map",
-    "static/js/2.aa89d58d.chunk.js.LICENSE.txt": "/travelorie/static/js/2.aa89d58d.chunk.js.LICENSE.txt",
+    "static/js/2.08fc526d.chunk.js.LICENSE.txt": "/travelorie/static/js/2.08fc526d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/travelorie/static/media/arrow_right.7917dd3e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3969994d.js",
-    "static/js/2.aa89d58d.chunk.js",
+    "static/js/2.08fc526d.chunk.js",
     "static/css/main.818745ed.chunk.css",
-    "static/js/main.fd2e7cbc.chunk.js"
+    "static/js/main.1790e92c.chunk.js"
   ]
 }
