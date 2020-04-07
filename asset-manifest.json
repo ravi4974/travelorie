@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/travelorie/static/css/main.818745ed.chunk.css",
-    "main.js": "/travelorie/static/js/main.1790e92c.chunk.js",
-    "main.js.map": "/travelorie/static/js/main.1790e92c.chunk.js.map",
+    "main.js": "/travelorie/static/js/main.19024147.chunk.js",
+    "main.js.map": "/travelorie/static/js/main.19024147.chunk.js.map",
     "runtime-main.js": "/travelorie/static/js/runtime-main.3969994d.js",
     "runtime-main.js.map": "/travelorie/static/js/runtime-main.3969994d.js.map",
     "static/js/2.08fc526d.chunk.js": "/travelorie/static/js/2.08fc526d.chunk.js",
     "static/js/2.08fc526d.chunk.js.map": "/travelorie/static/js/2.08fc526d.chunk.js.map",
     "index.html": "/travelorie/index.html",
-    "precache-manifest.5d7d5fb21140d46d4a1f66b4cd090829.js": "/travelorie/precache-manifest.5d7d5fb21140d46d4a1f66b4cd090829.js",
+    "precache-manifest.99760ac2aa674e8279a5328da567be36.js": "/travelorie/precache-manifest.99760ac2aa674e8279a5328da567be36.js",
     "service-worker.js": "/travelorie/service-worker.js",
     "static/css/main.818745ed.chunk.css.map": "/travelorie/static/css/main.818745ed.chunk.css.map",
     "static/js/2.08fc526d.chunk.js.LICENSE.txt": "/travelorie/static/js/2.08fc526d.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.3969994d.js",
     "static/js/2.08fc526d.chunk.js",
     "static/css/main.818745ed.chunk.css",
-    "static/js/main.1790e92c.chunk.js"
+    "static/js/main.19024147.chunk.js"
   ]
 }
