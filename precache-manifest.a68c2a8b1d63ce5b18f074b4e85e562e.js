@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44fc3249e502e9f3fb472d5063e3ce79",
+    "revision": "2b7496faf501a31f200ef97e616ff136",
     "url": "/travelorie/index.html"
   },
   {
-    "revision": "23f8c10ced75e5d72be8",
+    "revision": "75bfe66e05c1b8679367",
     "url": "/travelorie/static/css/main.818745ed.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/travelorie/static/js/2.08fc526d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "23f8c10ced75e5d72be8",
-    "url": "/travelorie/static/js/main.5b28fd87.chunk.js"
+    "revision": "75bfe66e05c1b8679367",
+    "url": "/travelorie/static/js/main.98affb2a.chunk.js"
   },
   {
     "revision": "cd2ff6272c523d90aaa4",
