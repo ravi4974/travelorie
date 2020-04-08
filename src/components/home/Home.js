@@ -46,6 +46,9 @@ function Banner() {
 
     useEffect(()=>{
         if(slides.length) window.init_rev4();
+        return function cleanup(){
+            window.revapi4 && (window.revapi4.revkill());
+        }
     });
 
     return (
@@ -72,9 +75,10 @@ function Banner() {
                                                     data-rotate="0,0" data-fstransition="fade"
                                                     data-fsmasterspeed="300" data-fsslotamount="7"
                                                     data-saveperformance="off" data-title="Slide">
-                                                    <img src={slide.background}
-                                                        alt="a" title="h6-slider-img-1" width="1834"
-                                                        height="934" data-bgposition="center center"
+                                                    <img src={`${process.env.PUBLIC_URL}/${slide.background}`}
+                                                        alt="a" title="h6-slider-img-1" 
+                                                        width="1834" height="934"
+                                                        data-bgposition="center center"
                                                         data-kenburns="on" data-duration="10000"
                                                         data-ease="Linear.easeNone"
                                                         data-scalestart={index % 2 ? "110" : "100"} data-scaleend={index % 2 ? "100" : "110"}
@@ -95,7 +99,7 @@ function Banner() {
                                                         data-frames='[{"delay":300,"speed":600,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                                         data-textalign="['inherit','inherit','inherit','inherit']">
                                                         <img
-                                                            src="images/internal/scratch.png"
+                                                            src={`${process.env.PUBLIC_URL}/images/internal/scratch.png`}
                                                             alt="a"
                                                             data-ww="['1233px','1003px','783px','374px']"
                                                             data-hh="['189px','154px','120px','57px']"
