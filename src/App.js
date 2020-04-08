@@ -15,14 +15,14 @@ import Home from './components/home/Home';
 import AppContext,{DefaultConfiguration} from './AppContext';
 
 function App() {
-  const headers=new Headers();
-  headers.append('pragma','no-cache');
-  headers.append('cache-control','no-cache')
+  // const headers=new Headers();
+  // headers.append('pragma','no-cache');
+  // headers.append('cache-control','no-cache')
   
   let [configuration,setConfiguration]=useState(DefaultConfiguration);
 
   useEffect(function(){
-    fetch(`${process.env.PUBLIC_URL}/js/configuration.json`,{headers}).then(r=>r.json()).then(c=>{setConfiguration(c);});
+    fetch(`${process.env.PUBLIC_URL}/js/configuration.json`).then(r=>r.json()).then(c=>{setConfiguration(c);});
   },[])
 
   return (
